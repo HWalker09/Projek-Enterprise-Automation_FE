@@ -15,6 +15,7 @@ class TDB_PEMESAN_CTRL extends BaseController
     {
         $vardatapemesan = $this->DATAPEMESAN->FindAll();
         $diti = [
+            'title' => "Bima Ganteng 123",
             'parmesan' => $vardatapemesan,
             'validation' => \Config\Services::validation()
         ];
