@@ -1,2 +1,4 @@
 Vendor/
 writable/
+composer.lock
+app/Config/Database.php
